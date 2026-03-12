@@ -17,3 +17,19 @@ Example Response:
     "name":"John Jackson",
     "email":"john@example.com"
 }
+
+POST api/users
+
+Example Payload:
+{
+    "id":1,
+    "name":"John Jackson",
+    "email":"john@example.com"
+}
+
+Example Response:
+{
+    "status" : "created",
+    "status_code" : 201,
+    "message" : "User created successfully..."
+}
